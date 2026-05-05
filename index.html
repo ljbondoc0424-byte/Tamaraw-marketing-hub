@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamaraw Marketing Hub | Fueling Creativity & Growth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #c5a059;
+            --dark-bg: #1a1a1a;
+        }
+        body { background-color: var(--dark-bg); color: white; font-family: 'Inter', sans-serif; }
+        .gold-text { color: var(--gold); }
+        .btn-gold { background-color: var(--gold); color: #000; font-weight: bold; transition: 0.3s; }
+        .btn-gold:hover { background-color: #e2bd7a; transform: translateY(-2px); }
+        .package-card { background: #262626; border: 1px solid #333; transition: 0.3s; }
+        .package-card:hover { border-color: var(--gold); }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold gold-text">TAMARAW</div>
+        <div class="space-x-6 hidden md:block">
+            <a href="#services" class="hover:text-amber-500">Services</a>
+            <a href="#package" class="hover:text-amber-500">The 3-in-1</a>
+            <a href="#contact" class="btn-gold px-5 py-2 rounded-full">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-center py-20 px-4">
+        <img src="logo.png" alt="Tamaraw Marketing Hub Logo" class="mx-auto w-64 mb-8 rounded-lg shadow-2xl shadow-amber-900/20">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-4 uppercase tracking-tighter">Fueling <span class="gold-text">Creativity</span> & Growth</h1>
+        <p class="text-gray-400 text-xl max-w-2xl mx-auto">Mindoro's Innovation Hub. We provide cutting-edge digital solutions to scale your business to the next level.</p>
+        <div class="mt-10">
+            <a href="#package" class="btn-gold px-8 py-4 rounded-md text-lg">Claim Your 3-in-1 Package</a>
+        </div>
+    </header>
+
+    <!-- Services / Package Section -->
+    <section id="package" class="py-20 bg-black/30">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">The Tamaraw <span class="gold-text">3-in-1</span> Package</h2>
+                <p class="text-gray-400">One powerhouse solution. Three essential digital tools.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Automation Chat -->
+                <div class="package-card p-8 rounded-xl text-center">
+                    <i class="fas fa-robot text-4xl gold-text mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Automation Chat</h3>
+                    <p class="text-gray-400">Engage customers 24/7. Our AI-driven chat systems handle inquiries while you sleep.</p>
+                </div>
+
+                <!-- Website Creation -->
+                <div class="package-card p-8 rounded-xl text-center border-amber-600 border-2">
+                    <i class="fas fa-laptop-code text-4xl gold-text mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Website Creation</h3>
+                    <p class="text-gray-400">Phenomenal, fast, and mobile-responsive websites designed to convert visitors into loyal clients.</p>
+                </div>
+
+                <!-- Advertisement -->
+                <div class="package-card p-8 rounded-xl text-center">
+                    <i class="fas fa-ad text-4xl gold-text mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Advertisement</h3>
+                    <p class="text-gray-400">Strategic ad campaigns across social platforms to put your brand in front of the right eyes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-8">Ready to dominate the market?</h2>
+        <form class="space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full p-4 bg-zinc-800 rounded border border-zinc-700 outline-none focus:border-amber-500">
+            <input type="email" placeholder="Business Email" class="w-full p-4 bg-zinc-800 rounded border border-zinc-700 outline-none focus:border-amber-500">
+            <textarea placeholder="Tell us about your project" class="w-full p-4 bg-zinc-800 rounded border border-zinc-700 outline-none focus:border-amber-500 h-32"></textarea>
+            <button type="submit" class="btn-gold w-full py-4 rounded font-bold uppercase tracking-widest">Send Request</button>
+        </form>
+    </section>
+
+    <footer class="py-10 text-center text-gray-600 border-t border-zinc-800">
+        <p>&copy; 2026 Tamaraw Marketing Hub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
