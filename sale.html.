@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMITED OFFER | Tamaraw Marketing Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #000; color: white; font-family: 'Inter', sans-serif; }
+        .gold-gradient { background: linear-gradient(45deg, #c5a059, #f9dfa5); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .sale-card { border: 2px dashed #c5a059; }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+        <div class="bg-zinc-900 p-10 rounded-3xl sale-card max-w-2xl">
+            <h1 class="text-6xl font-black mb-4 gold-gradient uppercase">50% OFF SALE</h1>
+            <p class="text-2xl mb-8 font-bold">Exclusive Tamaraw 3-in-1 Package</p>
+            
+            <div class="text-gray-400 mb-8 space-y-2">
+                <p>✔️ Automation Chat Setup</p>
+                <p>✔️ Professional Website Creation</p>
+                <p>✔️ Targeted Advertisement Campaign</p>
+            </div>
+
+            <div class="bg-red-600 text-white py-2 px-4 rounded-full inline-block font-bold animate-pulse mb-8">
+                OFFER VALID FOR THIS MONTH ONLY
+            </div>
+
+            <p class="text-gray-500 mb-10">Stop leaving money on the table. Secure your discount today.</p>
+
+            <a href="index.html#contact" class="block w-full bg-[#c5a059] text-black font-bold py-4 rounded-lg text-xl hover:bg-white transition">
+                BOOK MY 50% DISCOUNT NOW
+            </a>
+            <a href="index.html" class="block mt-6 text-sm text-gray-500 underline">No thanks, take me back</a>
+        </div>
+    </div>
+</body>
+</html>
